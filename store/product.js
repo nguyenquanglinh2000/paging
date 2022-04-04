@@ -15,7 +15,6 @@ export const actions = {
     await addDoc(collection(db, 'product'), {
       ...payload
     })
-    // $route.push('/table/createProduct')
   },
   async getProduct ({ commit, dispatch }, payload) {
     try {
