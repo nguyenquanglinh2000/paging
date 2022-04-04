@@ -36,7 +36,7 @@
                   listDetail[0].value = '',
                   listDetail[1].value = '',
                   listDetail[2].value = '',
-                  valueThuongHieu = ''
+                  valueThuongHieu = '',
                   clearUrl()"
         >
           Lưu

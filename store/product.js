@@ -54,7 +54,6 @@ export const actions = {
     documentSnapshots.forEach((doc) => {
       arr.push(doc.data())
     })
-    console.log('UPdata')
     commit('UPDATA_PAGING', arr)
   },
   // async nextPage ({ commit, state }, payload) {
